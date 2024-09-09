@@ -1,6 +1,10 @@
+import java.util.Random;
+
 public class Reduce {
-    public static void main(int i) {
-        int n = i;
+    public static void main(String[] args) {
+        Random random = new Random();
+        int randomInt = random.nextInt(100);
+        int n = randomInt;
 
         while (n > 0) {
 
