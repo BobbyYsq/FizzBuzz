@@ -5,7 +5,7 @@ public class Reduce {
         Random random = new Random();
         int randomInt = random.nextInt(100);
         int n = randomInt;
-
+        int count = 0;
         while (n > 0) {
 
             boolean iseven = n % 2 == 0;
@@ -18,7 +18,8 @@ public class Reduce {
                 n = n - 1;
 
             }
-            System.out.println(n);
+            count++;
         }
+        System.out.println(count);
     }
 }
